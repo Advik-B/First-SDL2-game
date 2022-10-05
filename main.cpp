@@ -4,7 +4,7 @@
 #include "config.h"
 
 using namespace std;
-using config::background;
+using config::background_colour;
 
 int main(int argc, char *argv)
 {	
@@ -23,10 +23,10 @@ int main(int argc, char *argv)
 	SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, 0);
 	SDL_SetRenderDrawColor(
 		renderer,
-		background[0],
-		background[1],
-		background[2], 
-		background[3]
+		background_colour[0],
+		background_colour[1],
+		background_colour[2], 
+		background_colour[3]
 	);
 	
 	SDL_RenderClear(renderer);
