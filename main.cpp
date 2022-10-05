@@ -29,5 +29,8 @@ int main(int argc, char *argv)
 		background[3]
 	);
 	
+	SDL_RenderClear(renderer);
+	SDL_RenderPresent(renderer);
+	SDL_Delay(5000);
 	return 0;
 }
