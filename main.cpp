@@ -2,8 +2,11 @@
 #include "SDL.h"
 #include <vector>
 #include "config.h"
+#include <termcolor/termcolor.hpp>
+
 
 using namespace std;
+using namespace termcolor;
 using config::background_colour;
 
 int main(int argc, char *argv)
